@@ -23,9 +23,13 @@ body{
   font-size: 23px;
 }
 
+
 hr {
-    height: 4px;
-    border: 0;
-    background-color: #fc825e;
-    transform: translate(130px,0px);
+  height: 4px;
+  border: 0;
+  background-color: #fc825e;
+  transform: translate(130px,0px);
+  z-index: 999;
+  position: relative;
+
 }
